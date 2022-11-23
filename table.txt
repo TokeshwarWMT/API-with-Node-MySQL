@@ -1,0 +1,17 @@
+create table user(
+    id int auto_increment,
+    name varchar(50),
+    email varchar(50),
+    password varchar(50),
+    address varchar(255),
+    primary key(id)
+);
+
+create table product(
+    id int auto_increment,
+    pname varchar(50),
+    price int,
+    discription varchar(255),
+    quantity int,
+    primary key(id)
+);
